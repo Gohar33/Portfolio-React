@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.middle-part-container {
+  background-color: #fff;
+}
+
+h2 {
+  color: #05466a;
+  font-size: 50px;
+  text-align: center;
+}
+
+.card-img {
+  width: 130px;
+  height: 130px;
+}
+
+.about-me {
+  font-size: 20px;
+  line-height: 2;
+  margin: 0 80px 80px 80px;
+  /* text-align: center; */
+  font-family: "Lato";
+  font-weight: 600;
+}

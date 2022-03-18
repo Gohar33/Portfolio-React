@@ -1,0 +1,95 @@
+.upper-part-container {
+  background-color: #191b1a;
+}
+
+.hello {
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 50px 0 0;
+  color: #05466a;
+}
+
+.bio-img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 70px;
+  color: #11b29f;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #05466a;
+  border-radius: 50px;
+  animation-name: twinkle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.dot-1 {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #11b29f;
+  border-radius: 50px;
+  animation-name: twinkle;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin-left: 80px;
+}
+
+.dot-2 {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #05466a;
+  border-radius: 50px;
+  animation-name: twinkle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin-left: 180px;
+}
+
+.dot-3 {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #05466a;
+  border-radius: 50px;
+  animation-name: twinkle;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  margin-left: 200px;
+}
+
+.dot-direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@keyframes twinkle {
+  20% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .size-direction {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hello {
+    margin: 0 20px;
+  }
+
+  .dot-1 {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.skills-wrap {
+  background-color: #191b1a;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+path {
+  fill: #11b29f;
+}
+
+path:hover {
+  fill: #05466a;
+}
+
+.icon-text {
+  color: #fff;
+  font-size: 20px;
+}

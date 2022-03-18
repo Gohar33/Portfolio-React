@@ -1,0 +1,14 @@
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #11b29f;
+  font-size: 25px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: #05466a;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #11b29f;
+  border: none;
+  margin-left: 18px;
+}
