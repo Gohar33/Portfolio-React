@@ -9,9 +9,9 @@ const Navigation = () => {
     <div>
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav ">
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav
-            className="justify-content-end w-100 ms-3 pe-5"
+            className="justify-content-end w-100 ps-3 pe-5"
             activeKey="/home"
           >
             <Nav.Item>

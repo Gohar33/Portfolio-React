@@ -4,10 +4,7 @@
 
 .hello {
   font-size: 30px;
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px 50px 0 0;
-  color: #05466a;
+  color: #14638e;
 }
 
 .bio-img {
@@ -86,7 +83,9 @@ h1 {
   }
 
   .hello {
-    margin: 0 20px;
+    margin: 0 0 0 40px;
+    font-size: 20px;
+    justify-self: center;
   }
 
   .dot-1 {

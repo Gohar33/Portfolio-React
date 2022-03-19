@@ -3,8 +3,8 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <div className="skills-wrap pt-5 pb-5">
-      <h2 className=" mb-5">Skills</h2>
-      <div class="row ms-5">
+      <h2 className="title mb-5">SKILLS</h2>
+      <div class="row ps-5">
         <div class="col">
           <div className="d-flex">
             <div className="icon">
@@ -62,7 +62,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div class="row ms-5 mt-5">
+      <div class="row mt-5 ps-5">
         <div class="col">
           <div className="d-flex">
             <div className="icon">
@@ -112,7 +112,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      <div class="row ms-5 mt-5">
+      <div class="row mt-5 ps-5">
         <div class="col">
           <div className="d-flex">
             <div className="icon">

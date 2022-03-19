@@ -4,8 +4,8 @@
   background-color: #fff;
 }
 
-h2 {
-  color: #05466a;
+.title {
+  color: #14638e;
   font-size: 50px;
   text-align: center;
 }
@@ -23,3 +23,7 @@ h2 {
   font-family: "Lato";
   font-weight: 600;
 }
+
+/* .cards-container {
+  background-color: rgb(235, 244, 247);
+} */

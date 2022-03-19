@@ -1,34 +1,93 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import ListGroup from "react-bootstrap/ListGroup";
-// import ListGroupItem from "react-bootstrap/ListGroupItem";
+import ListGroup from "react-bootstrap/ListGroup";
+import ListGroupItem from "react-bootstrap/ListGroupItem";
+import "./Cards.css";
+
+const cards = [
+  {
+    id: 1,
+    img: "https://i.imgur.com/OAY2Mgv.jpg ",
+    title: "Meal-sharing app",
+    text: "Meal Sharing is an app created by React, deployed on Heroku.",
+    tools: "HTML, CSS, JS, React, Node.js, MySQL, Heroku",
+    codeLink: "https://github.com/Gohar33/meal-sharing",
+    projectLink: "https://hyf-meal-sharing-gohar.herokuapp.com/",
+  },
+
+  {
+    id: 2,
+    img: "https://i.imgur.com/sB3pmWX.png",
+    title: "To Do List",
+    text:
+      "The page is created by React, helps to add, edit, update and delete to do lists.",
+    tools: "HTML, CSS, JS, React, Heroku",
+    codeLink: "https://github.com/Gohar33/ToDoList-React",
+    projectLink: "Project link",
+  },
+
+  {
+    id: 3,
+    img: "https://i.imgur.com/6Yutu46.png",
+    title: "Dashboard",
+    text:
+      "Dashboard page displaying usage consumption, designed on Figma, then created by React.",
+    tools: "HTML, CSS, JS, React, Figma",
+    codeLink: "https://github.com/Gohar33/dashboard",
+    projectLink: "Project link",
+  },
+
+  {
+    id: 4,
+    img: "https://i.imgur.com/cRJObWM.png",
+    title: "Weather app",
+    text: "Helps to show current weather in any city of the world",
+    tools: "HTML, CSS, JS",
+    codeLink: "https://github.com/Gohar33/weather_app",
+    projectLink: "Project link",
+  },
+
+  {
+    id: 5,
+    img: "https://i.imgur.com/SsKgATU.png",
+    title: "CSS Portfolio",
+    text: "My old portfolio I created during my bootcamp study period",
+    tools: "HTML, CSS, JS",
+    codeLink: "https://github.com/Gohar33/Gohar33.github.io",
+    projectLink: "https://gohar33.github.io/index.html",
+  },
+];
 
 export default function Cards() {
   return (
-    <div>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img
-          variant="top"
-          src="https://user-images.githubusercontent.com/63416409/120115121-9682dd00-c182-11eb-974e-859b3a71fd10.png"
-          className="card-img"
-        />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-        {/* <ListGroup className="list-group-flush">
-          <ListGroupItem>Cras justo odio</ListGroupItem>
-          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-          <ListGroupItem>Vestibulum at eros</ListGroupItem>
-        </ListGroup>
-        <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body> */}
-      </Card>
+    <div className="cards-container">
+      <h2 className="title mt-5 mb-5">Projects</h2>
+      <div className="d-flex flex-row flex-wrap justify-content-center">
+        {cards.map((card) => {
+          return (
+            <div key={card.id}>
+              <Card>
+                <Card.Img variant="top" src={card.img} className="card-img" />
+                <Card.Body>
+                  <Card.Title>{card.title}</Card.Title>
+                  <Card.Text>{card.text}</Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                  <ListGroupItem>{card.tools}</ListGroupItem>
+                </ListGroup>
+                <Card.Body>
+                  <Card.Link href={card.codeLink} target="_blank">
+                    Code Link
+                  </Card.Link>
+                  <Card.Link href={card.projectLink} target="_blank">
+                    Project Link
+                  </Card.Link>
+                </Card.Body>
+              </Card>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
