@@ -8,6 +8,7 @@
   color: #14638e;
   font-size: 50px;
   text-align: center;
+  padding: 80px 0;
 }
 
 .card-img {
@@ -24,6 +25,6 @@
   font-weight: 600;
 }
 
-/* .cards-container {
-  background-color: rgb(235, 244, 247);
-} */
+.color {
+  color: #11b29f;
+}

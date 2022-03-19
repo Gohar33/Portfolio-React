@@ -4,7 +4,11 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer-wrap pb-5">
-      <h2 className="title pt-5">Contact</h2>
+      <h2 className="title">
+        {" "}
+        how to
+        <span className="color"> contact</span> me{" "}
+      </h2>
       <div className="d-flex justify-content-around flex-wrap mt-5 footer-mobile-direction">
         <div>
           {/* <div className="d-flex contact-details ps-5">

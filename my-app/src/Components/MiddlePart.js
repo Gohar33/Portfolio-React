@@ -8,7 +8,9 @@ import "./MiddlePart.css";
 export default function MiddlePart() {
   return (
     <div className="middle-part-container">
-      <h2 className="mt-5 mb-5 title">About</h2>
+      <h2 className="title">
+        a bit <span className="color">about</span> me
+      </h2>
       <About />
       <Skills />
       <Cards />

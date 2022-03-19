@@ -61,8 +61,10 @@ const cards = [
 export default function Cards() {
   return (
     <div className="cards-container">
-      <h2 className="title mt-5 mb-5">Projects</h2>
-      <div className="d-flex flex-row flex-wrap justify-content-center">
+      <h2 className="title">
+        some <span className="color">projects</span> worth to consider
+      </h2>
+      <div className="d-flex flex-row flex-wrap justify-content-center mb-5">
         {cards.map((card) => {
           return (
             <div key={card.id}>
