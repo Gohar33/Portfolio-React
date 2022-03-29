@@ -61,7 +61,7 @@ const cards = [
 export default function Cards() {
   return (
     <div className="cards-container">
-      <h2 className="title">
+      <h2 className="title" id="projects">
         some <span className="color">projects</span> worth to consider
       </h2>
       <div className="d-flex flex-row flex-wrap justify-content-center mb-5">

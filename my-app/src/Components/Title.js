@@ -4,17 +4,19 @@ import "./UpperPart.css";
 function Title() {
   return (
     <div>
-      {/* <div className="dot-direction">
+      <div className="dot-direction">
         <div className="dot-3"></div>
+      </div>
+
+      <div className="dot-1"></div>
+      <div className="dot-direction">
         <div className="dot-1"></div>
       </div>
-      <div className="dot-1"></div> */}
       <div className="col-md-12 d-flex flex-row flex-wrap pb-5 pt-5">
         <div className="col-sm-5 d-flex justify-content-center">
           <img
             src="https://www.codeart.dk/globalassets/photos/gohar_photo.jpg?w=1200"
             alt="girl"
-            // className="img-fluid rounded-circle w-50 "
             className="image-fluid rounded-circle w-50 h-100 ms-5"
           />
         </div>
@@ -27,16 +29,22 @@ function Title() {
           </p>
         </div>
       </div>
-      {/* <div className="dot-1"></div>
-      <div className="dot-2"></div>
       <div className="dot-direction">
-        <div className="dot-1"></div>
         <div className="dot-2"></div>
       </div>
       <div className="dot-direction">
+        <div className="dot-1"></div>
+
         <div className="dot-3"></div>
+      </div>
+
+      {/* <div className="dot-direction">
+        <div className="dot-2"></div>
         <div className="dot-1"></div>
       </div> */}
+      <div className="dot-direction">
+        <div className="dot-1"></div>
+      </div>
     </div>
   );
 }

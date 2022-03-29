@@ -8,7 +8,7 @@ import "./MiddlePart.css";
 export default function MiddlePart() {
   return (
     <div className="middle-part-container">
-      <h2 className="title">
+      <h2 className="title" id="about">
         a bit <span className="color">about</span> me
       </h2>
       <About />

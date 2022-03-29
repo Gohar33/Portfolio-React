@@ -3,7 +3,7 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <div className="skills-wrap pt-5 pb-5">
-      <h2 className="title">
+      <h2 className="title" id="skills">
         <span className="color">skills</span> I have in
       </h2>
       <div className="container">

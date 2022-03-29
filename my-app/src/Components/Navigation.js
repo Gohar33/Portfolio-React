@@ -18,16 +18,16 @@ const Navigation = () => {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/meals">About</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/reviews">Skills</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/reviews">Projects</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/reviews">Contact</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
