@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div className="skills-wrap pt-5 pb-5">
       <h2 className="title" id="skills">
-        <span className="color">skills</span> I have in
+        <span className="color">skills</span> I have
       </h2>
       <div className="container">
         <div class="row ps-5">

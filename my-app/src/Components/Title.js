@@ -25,7 +25,7 @@ function Title() {
             Gohar Vardanyan
           </h1>
           <p className="hello mt-3 d-flex justify-content-center">
-            Hello, I’m Gohar, Frontent Developer with flair for UX/UI
+            Hello, I’m Gohar, Frontend Engineer with flair for UX/UI
           </p>
         </div>
       </div>
