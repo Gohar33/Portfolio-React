@@ -1,19 +1,19 @@
-.skills-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100vw;
-  margin-bottom: 70px;
-  gap: 7rem;
-  padding: 5rem;
-}
 .skills-wrap {
   background-color: #080a09;
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7rem;
+  justify-content: space-between;
+  padding: 5rem;
+  width: 100vw;
+}
+
 .icon {
-  width: 50px;
+  width: 4rem;
 }
 
 path {
@@ -26,12 +26,12 @@ path:hover {
 
 .icon-text {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .icon-text-wrap {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 0.5rem;
+  justify-content: space-between;
 }

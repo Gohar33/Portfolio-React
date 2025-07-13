@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "../Cards";
 import About from "../About/About";
-import Skills from "../Skills";
+import Skills from "../Skills/Skills";
 
 import "./MiddleSection.css";
 

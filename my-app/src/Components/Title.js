@@ -38,10 +38,6 @@ function Title() {
         <div className="dot-3"></div>
       </div>
 
-      {/* <div className="dot-direction">
-        <div className="dot-2"></div>
-        <div className="dot-1"></div>
-      </div> */}
       <div className="dot-direction">
         <div className="dot-1"></div>
       </div>
