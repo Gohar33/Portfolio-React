@@ -1,13 +1,13 @@
 import "./App.css";
 import UpperPart from "./Components/UpperPart";
-import MiddlePart from "./Components/MiddlePart";
+import MiddleSection from "./Components/MiddleSection/MiddleSection";
 import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
       <UpperPart />
-      <MiddlePart />
+      <MiddleSection />
       <Footer />
     </div>
   );
