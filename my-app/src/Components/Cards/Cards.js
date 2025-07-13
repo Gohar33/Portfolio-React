@@ -10,7 +10,7 @@ const cards = [
     img: "https://i.imgur.com/OAY2Mgv.jpg ",
     title: "Meal-sharing app",
     text: "Meal Sharing is an app created by React, deployed on Heroku.",
-    tools: "HTML, CSS, JS, React, Node.js, MySQL, Heroku",
+    tools: "HTML, CSS, JS, React, Node.js, MySQL",
     codeLink: "https://github.com/Gohar33/meal-sharing",
     projectLink: "https://hyf-meal-sharing-gohar.herokuapp.com/",
   },
@@ -20,7 +20,7 @@ const cards = [
     img: "https://i.imgur.com/sB3pmWX.png",
     title: "To Do List",
     text: "The page is created by React, helps to add, edit, update and delete to do lists.",
-    tools: "HTML, CSS, JS, React, Heroku",
+    tools: "HTML, CSS, JS, React",
     codeLink: "https://github.com/Gohar33/ToDoList-React",
     projectLink: "Project link",
   },
@@ -53,6 +53,15 @@ const cards = [
     tools: "HTML, CSS, JS",
     codeLink: "https://github.com/Gohar33/Gohar33.github.io",
     projectLink: "https://gohar33.github.io/index.html",
+  },
+  {
+    id: 6,
+    img: "https://i.imgur.com/4zFmAq1.png",
+    title: "Quizz for Coders",
+    text: "An interactive game to practice HTML, CSS and JavaScript.",
+    tools: "HTML, CSS, JS",
+    codeLink: "https://github.com/Gohar33/quizz_for_coders",
+    projectLink: "https://gohar33.github.io/quizz_for_coders/",
   },
 ];
 
