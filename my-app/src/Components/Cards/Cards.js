@@ -7,22 +7,22 @@ import "./Cards.css";
 const cards = [
   {
     id: 1,
+    img: "https://i.imgur.com/sB3pmWX.png",
+    title: "To Do List",
+    text: "The page is created by React, helps to add, edit, update and delete to do lists.",
+    tools: "HTML, CSS, JS, React",
+    codeLink: "https://github.com/Gohar33/ToDoList-React",
+    projectLink: "https://gohar33.github.io/ToDoList-React/",
+  },
+
+  {
+    id: 2,
     img: "https://i.imgur.com/OAY2Mgv.jpg ",
     title: "Meal-sharing app",
     text: "Meal Sharing is an app created by React, deployed on Heroku.",
     tools: "HTML, CSS, JS, React, Node.js, MySQL",
     codeLink: "https://github.com/Gohar33/meal-sharing",
     projectLink: "https://hyf-meal-sharing-gohar.herokuapp.com/",
-  },
-
-  {
-    id: 2,
-    img: "https://i.imgur.com/sB3pmWX.png",
-    title: "To Do List",
-    text: "The page is created by React, helps to add, edit, update and delete to do lists.",
-    tools: "HTML, CSS, JS, React",
-    codeLink: "https://github.com/Gohar33/ToDoList-React",
-    projectLink: "Project link",
   },
 
   {
