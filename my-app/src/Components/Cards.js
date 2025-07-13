@@ -19,8 +19,7 @@ const cards = [
     id: 2,
     img: "https://i.imgur.com/sB3pmWX.png",
     title: "To Do List",
-    text:
-      "The page is created by React, helps to add, edit, update and delete to do lists.",
+    text: "The page is created by React, helps to add, edit, update and delete to do lists.",
     tools: "HTML, CSS, JS, React, Heroku",
     codeLink: "https://github.com/Gohar33/ToDoList-React",
     projectLink: "Project link",
@@ -30,8 +29,7 @@ const cards = [
     id: 3,
     img: "https://i.imgur.com/6Yutu46.png",
     title: "Dashboard",
-    text:
-      "Dashboard page displaying usage consumption, designed on Figma, then created by React.",
+    text: "Dashboard page displaying usage consumption, designed on Figma, then created by React.",
     tools: "HTML, CSS, JS, React, Figma",
     codeLink: "https://github.com/Gohar33/dashboard",
     projectLink: "Project link",
@@ -60,11 +58,11 @@ const cards = [
 
 export default function Cards() {
   return (
-    <div className="cards-container">
+    <div>
       <h2 className="title" id="projects">
         some <span className="color">projects</span> worth to consider
       </h2>
-      <div className="d-flex flex-row flex-wrap justify-content-center mb-5">
+      <div className="cards-container">
         {cards.map((card) => {
           return (
             <div key={card.id}>
