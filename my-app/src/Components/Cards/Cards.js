@@ -32,11 +32,21 @@ const cards = [
     text: "Dashboard page displaying usage consumption, designed on Figma, then created by React.",
     tools: "HTML, CSS, JS, React, Figma",
     codeLink: "https://github.com/Gohar33/dashboard",
-    projectLink: "Project link",
+    projectLink: "https://gohar33.github.io/dashboard/",
   },
 
   {
     id: 4,
+    img: "https://i.imgur.com/4zFmAq1.png",
+    title: "Quizz for Coders",
+    text: "An interactive game to practice HTML, CSS and JavaScript.",
+    tools: "HTML, CSS, JS",
+    codeLink: "https://github.com/Gohar33/quizz_for_coders",
+    projectLink: "https://gohar33.github.io/quizz_for_coders/",
+  },
+
+  {
+    id: 5,
     img: "https://i.imgur.com/cRJObWM.png",
     title: "Weather app",
     text: "Helps to show current weather in any city of the world",
@@ -46,22 +56,13 @@ const cards = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: "https://i.imgur.com/SsKgATU.png",
     title: "CSS Portfolio",
     text: "My old portfolio I created during my bootcamp study period",
     tools: "HTML, CSS, JS",
     codeLink: "https://github.com/Gohar33/Gohar33.github.io",
     projectLink: "https://gohar33.github.io/index.html",
-  },
-  {
-    id: 6,
-    img: "https://i.imgur.com/4zFmAq1.png",
-    title: "Quizz for Coders",
-    text: "An interactive game to practice HTML, CSS and JavaScript.",
-    tools: "HTML, CSS, JS",
-    codeLink: "https://github.com/Gohar33/quizz_for_coders",
-    projectLink: "https://gohar33.github.io/quizz_for_coders/",
   },
 ];
 
