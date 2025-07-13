@@ -1,5 +1,12 @@
-.container {
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
   margin-bottom: 70px;
+  gap: 7rem;
+  padding: 5rem;
 }
 .skills-wrap {
   background-color: #080a09;
@@ -7,7 +14,6 @@
 
 .icon {
   width: 50px;
-  height: 50px;
 }
 
 path {
@@ -23,6 +29,9 @@ path:hover {
   font-size: 20px;
 }
 
-.row {
-  margin: 0 !important;
+.icon-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
