@@ -3,14 +3,15 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer-wrap pb-5">
+    <div className="footer-wrap">
       <h2 className="title" id="contact">
         how to
         <span className="color"> contact</span> me{" "}
       </h2>
-      <div className="d-flex justify-content-around flex-wrap mt-5 footer-mobile-direction">
-        <div>
-          <div className="d-flex contact-details ps-5">
+
+      <div className="contact-details">
+        <div className="contact-section">
+          <div className="icon-text-wrapper">
             <div className="icon">
               <a
                 href="https://giphy.com/gifs/3oz8xT4M88PfOPcFmU/fullscreen"
@@ -21,12 +22,12 @@ export default function Footer() {
                 </svg>
               </a>
             </div>
-            <div className="ms-2 mt-4">
+            <div>
               <p>+45 52640933</p>
             </div>
           </div>
 
-          <div className="d-flex contact-details ps-5">
+          <div className="icon-text-wrapper">
             <div className="icon">
               <a href="mailto:goharvardyan@gmail.com" target="_blank ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -35,14 +36,14 @@ export default function Footer() {
               </a>
             </div>
 
-            <div className="ms-2 mt-4">
+            <div className="">
               <p>goharvardyan@gmail.com</p>
             </div>
           </div>
         </div>
 
-        <div>
-          <div className="d-flex contact-details ps-5">
+        <div className="contact-section">
+          <div className="icon-text-wrapper">
             <div className="icon">
               <a
                 href="https://www.linkedin.com/in/gohar-vardanyan33/"
@@ -53,11 +54,12 @@ export default function Footer() {
                 </svg>
               </a>
             </div>
-            <div className="ms-2 mt-4">
+            <div className="">
               <p>linkedin.com/in/gohar-vardanyan33/</p>
             </div>
           </div>
-          <div className="d-flex contact-details ps-5">
+
+          <div className="icon-text-wrapper">
             <div className="icon">
               <a href="https://github.com/Gohar33" target="_blank ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
@@ -65,7 +67,7 @@ export default function Footer() {
                 </svg>
               </a>
             </div>
-            <div className="ms-2 mt-4">
+            <div className="">
               <p>github.com/Gohar33</p>
             </div>
           </div>

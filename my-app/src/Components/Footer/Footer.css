@@ -1,0 +1,26 @@
+.footer-wrap {
+  background-color: #080a09;
+}
+
+.contact-details {
+  color: #11b29f;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 800;
+  gap: 3rem;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.icon-text-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
