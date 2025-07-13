@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "../Cards";
+import Cards from "../Cards/Cards";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
 

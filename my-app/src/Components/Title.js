@@ -21,7 +21,7 @@ function Title() {
           />
         </div>
         <div className="col-sm-7 d-flex flex-column justify-content-center mb-5">
-          <h1 className=" d-flex justify-content-center mt-5">
+          <h1 className=" d-flex justify-content-center mt-3">
             Gohar Vardanyan
           </h1>
           <p className="hello mt-3 d-flex justify-content-center">

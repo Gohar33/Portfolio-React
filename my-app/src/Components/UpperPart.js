@@ -1,7 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
 import Title from "./Title";
-// import Image from "./Image";
 
 import "./UpperPart.css";
 
